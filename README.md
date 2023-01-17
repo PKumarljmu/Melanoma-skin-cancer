@@ -6,6 +6,7 @@ In the skin biopsy, the dermatologist takes some part of the skin lesion and exa
 
 
 Model Architecture:
+
 Epoch 1/20
 169/169 [==============================] - ETA: 0s - loss: 2.0475 - accuracy: 0.2159
 Epoch 1: val_accuracy improved from -inf to 0.39151, saving model to model.h5

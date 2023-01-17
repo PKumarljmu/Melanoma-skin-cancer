@@ -87,32 +87,5 @@ Epoch 20/20
 Epoch 20: val_accuracy did not improve from 0.93231
 169/169 [==============================] - 300s 2s/step - loss: 0.3361 - accuracy: 0.8748 - val_loss: 0.2383 - val_accuracy: 0.9147
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Model Evaluation:
-
-
-
-
-
+Conclusion:
+1) There was some overfitting the data after adding 1000 sample data to solve the class imbalance but after reducing the sample data for 500, overfitting gone. 2) I have recieved the accuracy: 0.8748 - val_loss: 0.2383 - val_accuracy: 0.9147 finally that looks good to make 3) Augmentor helped alot to add the sample images to manage the class imbalance

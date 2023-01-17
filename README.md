@@ -6,8 +6,7 @@ In the skin biopsy, the dermatologist takes some part of the skin lesion and exa
 
 # Model Architecture:
 
-_________________________________________________________________
- Layer (type)                Output Shape              Param #   
+
 =================================================================
  rescaling_3 (Rescaling)     (None, 180, 180, 3)       0         
                                                                  

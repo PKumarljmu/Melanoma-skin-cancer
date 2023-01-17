@@ -5,9 +5,7 @@ In the skin biopsy, the dermatologist takes some part of the skin lesion and exa
 
 
 # Model Architecture:
-
-
-=================================================================
+----------------------
  rescaling_3 (Rescaling)     (None, 180, 180, 3)       0         
                                                                  
  conv2d_9 (Conv2D)           (None, 178, 178, 32)      896       

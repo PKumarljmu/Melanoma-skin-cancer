@@ -1,13 +1,11 @@
-Project Name: Melanoma Skin Cancer Detection
+# Project Name: Melanoma Skin Cancer Detection
 
-Problem Statement:
-
+# Problem Statement:
 In the skin biopsy, the dermatologist takes some part of the skin lesion and examines it under the microscope. The current process takes almost a week or more, starting from getting a dermatologist appointment to getting a biopsy report. The aims to shorten the current gap to just a couple of days by providing the predictive model. The approach uses Convolutional Neural Network (CNN) to classify nine types of skin cancer from outlier lesions images. This reduction of a gap has the opportunity to impact millions of people positively.
 
 
-Model Architecture:
+# Model Architecture:
 
-Model: "sequential_3"
 _________________________________________________________________
  Layer (type)                Output Shape              Param #   
 =================================================================
@@ -42,7 +40,23 @@ _________________________________________________________________
 Total params: 6,648,137
 Trainable params: 6,648,137
 Non-trainable params: 0
-_________________________________________________________________
 
-Conclusion:
-1) There was some overfitting the data after adding 1000 sample data to solve the class imbalance but after reducing the sample data for 500, overfitting gone. 2) I have recieved the accuracy: 0.8748 - val_loss: 0.2383 - val_accuracy: 0.9147 finally that looks good to make 3) Augmentor helped alot to add the sample images to manage the class imbalance
+
+# Conclusion:
+
+1) There was some overfitting the data after adding 1000 sample data to solve the class imbalance but after reducing the sample data for 500, overfitting gone.
+2) Recieved the accuracy: 0.8748 - val_loss: 0.2383 - val_accuracy: 0.9147 finally that looks good to make 
+3) Augmentor helped alot to add the sample images to manage the class imbalance
+
+
+![image](https://user-images.githubusercontent.com/110217004/212968605-4af2cd65-0d59-4c2d-be15-9476a1bf4abe.png)
+
+# Contact
+Created by [@pkumarljmu] - feel free to contact me!
+
+
+<!-- Optional -->
+<!-- ## License -->
+<!-- This project is open source and available under the [... License](). -->
+
+<!-- You don't have to include all sections - just the one's relevant to your project -->
